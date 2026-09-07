@@ -1,3 +1,5 @@
-import type { category,Budget,expense } from "../types/models.js";
+import type { Category, Budget, Expense } from "../types/models.js";
 
-export const category
+export const categories: Category[] = [];
+export const budgets: Budget[] = [];
+export const expenses: Expense[] = [];

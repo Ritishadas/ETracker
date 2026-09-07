@@ -1,6 +1,6 @@
 // category 
 
-export interface category{
+export interface Category{
     id: string
     name:string
 }
@@ -12,7 +12,7 @@ export interface Budget{
     amount:number
 }
 
-export interface expense{
+export interface Expense{
     id: string
     categoryId:string
     amount:number
